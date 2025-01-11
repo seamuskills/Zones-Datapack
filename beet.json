@@ -1,0 +1,14 @@
+{
+  "name": "Zones Map Data",
+  "description": "Datapack for the splatcraft zones map by seamuskills and friends",
+  "require":[
+    "bolt"
+  ],
+  "data_pack": {
+    "name": "Zones Data",
+    "pack_format": 8,
+    "load": ["src"]
+  },
+  "pipeline": ["mecha"],
+  "output": "C:\\Users\\theda\\curseforge\\minecraft\\Instances\\Splatcraft 1.18\\saves\\Zones Maps\\datapacks"
+}
