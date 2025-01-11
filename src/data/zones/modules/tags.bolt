@@ -1,0 +1,11 @@
+append function_tag minecraft:tick {
+    "values": [
+        "zones:main"
+    ]
+}
+
+append function_tag minecraft:load {
+    "values": [
+        "zones:init"
+    ]
+}
