@@ -4,6 +4,7 @@ scoreboard objectives add vars dummy
 scoreboard objectives add alphaTeam dummy
 scoreboard objectives add bravoTeam dummy
 scoreboard objectives add respawn dummy
+scoreboard objectives add respawnSeconds dummy
 scoreboard objectives add deathTrigger minecraft.custom:minecraft.deaths
 scoreboard objectives add config dummy
 

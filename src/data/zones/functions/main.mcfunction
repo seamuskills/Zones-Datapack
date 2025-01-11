@@ -1,7 +1,11 @@
 scoreboard players remove @a respawn 1
 scoreboard players add tick vars 1 
 
-execute as @a[scores={respawn=1..}] run title @s actionbar [{"text":"Respawn in: "}, {"score":{"name": "@s", "objective": "respawn"}}]
+scoreboard players set math vars 20
+execute as @a:
+    scoreboard players operation @s respawnSeconds = @s respawn
+    scoreboard players operation @s respawnSeconds /= math vars
+execute as @a[scores={respawn=1..}] run title @s actionbar [{"text":"Respawn in: ", "color":"dark_red"}, {"score":{"name": "@s", "objective": "respawnSeconds"}, "color": "dark_red"}]
 
 execute as @a[scores={respawn=0}]:
     #respawn code
