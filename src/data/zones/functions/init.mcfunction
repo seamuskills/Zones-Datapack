@@ -22,5 +22,9 @@ scoreboard players set tick vars 0
 scoreboard players set respawnTime config 140
 
 gamerule doImmediateRespawn true
+gamerule keepInventory true
+gamerule doWeatherCycle false
+gamerule doDaylightCycle false
+gamerule fallDamage false
 
 tellraw @a "Loading complete!"
