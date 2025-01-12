@@ -10,7 +10,7 @@
     "load": ["src"]
   },
   "pipeline": ["mecha"],
-  "output": "C:\\Users\\theda\\curseforge\\minecraft\\Instances\\Splatcraft 1.18\\saves\\Zones Maps\\datapacks",
+  "output": "\\output",
   "meta": {
     "bolt":{
       "entrypoint":["zones:tags"]
